@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    /* Sets the background of the whole page to black */
+    color: white;
+    /* Makes the text color white */
+    font-family: monospace;
+    /* Uses a monospace font (like a typewriter) */
+}
+
+.site-header {
+    display: flex;
+    /* Enables Flexbox layout on the header */
+    justify-content: space-between;
+    /* Pushes child elements to the far left and right */
+    align-items: center;
+    /* Vertically centers child elements */
+    background: lightslategray;
+    /* Sets the background color of the header */
+    padding: 01 20px;
+}
+
+
+.site-logo {
+    color: white;
+    font-weight: bold;
+    font-size:1.5rem;
+    text-decoration: none;
+}
+
+.site-navbar u1 li{
+    list-style: none;
+    margin: 0 1rem;
+}
+
+.site-navbar ul li a{
+text-decoration: none;
+color: white;
+font-weight: bold;
+
+
+}
